@@ -4,8 +4,8 @@ from datetime import timedelta
 
 
 ### <summary>
-### Basic template algorithm simply initializes the date range and cash. This is a skeleton
-### framework you can use for designing an algorithm.
+### Utilizes the monthly Google trends search term "debt" to anticipate potential price movements.
+### Contrast other search terms and assets to produce interesting results.
 ### </summary>
 class BasicTemplateAlgorithm(QCAlgorithm):
     '''Basic template algorithm simply initializes the date range and cash'''
