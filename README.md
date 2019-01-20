@@ -32,6 +32,6 @@ conda install -y python=3.6.6
 ## Random Notes ##
 
 The **GoogleTrends.py** algorithm is based on the [SeekingAlpha](https://seekingalpha.com/article/4202781-timing-market-google-trends-search-volume-data) article postulating that; *"Past research suggests that the relative change in the volume of Google searches for financial terms such as “debt” or “stocks” can be used to anticipate stock market trends."* 
-The algorithm utilizes the monthly search term *debt* to predict price movements. It may be advisable to implement something like [Pytrends](https://github.com/GeneralMills/pytrends/blob/master/examples/example.py) and be aware that Google trends data contains the potential look-ahead bias. 
+The algorithm utilizes the monthly search term *debt* to predict price movements. It may be advisable to implement something like [Pytrends](https://github.com/GeneralMills/pytrends/blob/master/examples/example.py) and be aware that Google trends data contains a potential look-ahead bias. 
 
 I'd reccomend contrasting other search terms with various assets to produce more interesting results
